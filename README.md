@@ -36,3 +36,16 @@ function xhip()
   ip a | grep -i tun0 | grep -E "inet .*" | grep -oP '[0-9]{1,4}.[0-9]{1,4}.[0-9]{1,4}.[0-9]{1,4}' | xclip -sel clip
 }
 ```
+# Herramientas
+- Zellij
+- Tmux (Oh my tmux)
+  
+# Arbol de archivos
+```bash
+sudo mkdir {/opt/AD,/opt/Web,/opt/Movil/,/opt/ExecWindows,/opt/ExecLinux}
+```
+/opt/AD
+/opt/Web
+/opt/Movil
+/opt/ExecWindows
+/opt/ExecLinux
